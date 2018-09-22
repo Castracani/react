@@ -12,4 +12,4 @@ This project uses the React library in order to demonstrate basic React competen
 
 The directions for playing the game are in the screenshot below.
 
-![Image of Memory Game](https://imgur.com/a/32vylxS)
+![Image of Memory Game](https://i.imgur.com/4xqBW1G.jpg)
