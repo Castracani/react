@@ -5,10 +5,8 @@
 
 main {
   max-width: 95%;
-}
-
-.App {
   text-align: center;
+  margin-top: 6%;
 }
 
 .grid {
@@ -22,6 +20,8 @@ main {
   grid-template-columns: 1fr;
   grid-gap: 12px;
   width: 100%;
+  font-size: 24px;
+  
 }
 
 /* #leftBox > div {
@@ -38,6 +38,16 @@ main {
 #rightBox > div {
   background: lightgreen;
   padding: 8px;
+}
+
+#boxA {
+  align-self: end;
+  margin-bottom: 48px;
+  font-weight: bold;
+}
+
+#boxB {
+  font-size: 20px;
 }
 
 

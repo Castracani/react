@@ -51,9 +51,9 @@ class App extends Component {
       <main>
         <div className="grid">
           <div id="leftBox">
-            <div>Click on one of the birds to earn points. You win the game by clicking all 12 images only one time. Selecting the same image twice resets the game. I hope your memory is good!</div>
+            <div id="boxA">Click on one of the birds to earn points. You win the game by clicking all 12 images only one time. Selecting the same image twice resets the game. I hope your memory is good!</div>
             
-            <div>{this.state.message} <br />Score: {this.state.score} | Top Score: {this.state.highScore}</div>
+            <div id="boxB">{this.state.message} <br />Score: {this.state.score} | Top Score: {this.state.highScore}</div>
           </div>
           <div id="rightBox">
             {this.state.images.map(card => (
