@@ -24,10 +24,6 @@ main {
   
 }
 
-/* #leftBox > div {
-  width: 100%;
-} */
-
 #rightBox {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
